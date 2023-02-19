@@ -1,0 +1,62 @@
+input {
+  height: 25px;
+  margin: 8px;
+  border-radius: 8px;
+  border-color: rgb(12, 14, 14);
+}
+.form-ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  width: 600px;
+  height: 5px;
+  margin-top: 20px;
+  align-self: center;
+  padding: 40px;
+  border-radius: 20px;
+  position: relative;
+  background: rgb(245, 242, 242);
+  border: 1px solid black;
+}
+
+ul li {
+  color: rgb(108, 108, 211);
+  width: 600px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+button {
+  height: 31px;
+  width: 80px;
+  margin-top: 10px;
+  /* padding: 8px; */
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  border: 2px solid black;
+  background: rgba(41, 111, 151, 0.8);
+  cursor: pointer;
+  color: rgb(250, 248, 248);
+}
+
+button:hover {
+  background-color: rgb(97, 141, 194);
+  color: black;
+  height: 34px;
+  width: 90px;
+}
+
+.form-ul:hover {
+  width: 650px;
+  color: black;
+  border-color: rgb(3, 3, 227);
+  background-image: linear-gradient(
+    rgb(227, 225, 225),
+    rgba(134, 111, 111, 0.949)
+  );
+}
